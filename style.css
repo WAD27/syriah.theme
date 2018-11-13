@@ -13,15 +13,16 @@
 */
 
 /*CUSTOM*/
-* {outline: 1px dashed lime !important;}
-
- /* @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light'); */
+/* * {outline: 1px dashed lime !important;} */
 
 /*overrides*/
 .qt-logo-link {
   font-family: 'Hammersmith One', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   letter-spacing: 3px;
+}
+.qt-paper {
+    background-color: transparent !important;
 }
 a.qt-imglink {
     display: block;
