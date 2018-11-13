@@ -3,7 +3,7 @@
  Theme URI:    http://syriahlabanda.mx/
  Description:  Syriah band Child Theme
  Author:      Do the Math
- Author URI:   
+ Author URI:
  Template:     kentha
  Version:      1.0.0
  License:      GNU General Public License v2 or later
@@ -13,4 +13,18 @@
 */
 
 /*CUSTOM*/
+* {outline: 1px dashed lime !important;}
 
+ /* @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light'); */
+
+/*overrides*/
+.qt-logo-link {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 5em;
+  letter-spacing: 3px;
+}
+a.qt-imglink {
+    display: block;
+    background: transparent;
+    text-align: center;
+}
