@@ -32,8 +32,8 @@ get_header();
 					<?php wp_link_pages(); ?>
 				</div>
 			</div>
-			<?php comments_template(); ?>
-			<hr class="qt-spacer-l">
+			<?php //comments_template(); ?>
+			<!-- <hr class="qt-spacer-l"> -->
 		</div>
 		<?php endwhile; ?>
 	</div>

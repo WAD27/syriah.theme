@@ -1,9 +1,3 @@
-<?php
-/*
-Package: Kentha
-*/
-?>
-
 
 		<div class="qt-footercontainer qt-content-primary-light">
 			<?php
@@ -14,7 +8,7 @@ Package: Kentha
 			<div class="qt-footer-bottom qt-content-primary qt-content-aside qt-negative">
 		    	<div class="qt-container-l">
 		    		<div class="row">
-						<div class="col s12 m12 l6">
+						<div class="col s12 m6 l6">
 							<?php
 							/**
 							 * This function is in the kentha music player plugin
@@ -29,8 +23,8 @@ Package: Kentha
 								<?php get_template_part('phpincludes/part-social'); ?>
 						    </ul>
 						</div>
-						<div class="col s12 m12 l6">
-						    <h5 class="qt-copyright-text"><?php echo html_entity_decode(wp_kses( get_theme_mod('kentha_footer_text') , array('a')) ); ?></h5>
+						<div class="col s12 m6 l6">
+						    <h6 class="qt-copyright-text"><?php echo html_entity_decode(wp_kses( get_theme_mod('kentha_footer_text') , array('a')) ); ?></h6>
 							<ul class="qt-menu-footer qt-small">
 								<?php
 								if(has_nav_menu( 'kentha_menu_footer' )){

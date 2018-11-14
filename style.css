@@ -24,8 +24,20 @@
 .qt-paper {
     background-color: transparent !important;
 }
+li.qt-soc-count {
+    margin: 0 0 0 16px;
+}
 a.qt-imglink {
     display: block;
     background: transparent;
     text-align: center;
+}
+.qt-footer-bottom {
+    padding: 0.5rem 0 !important;
+}
+.qt-footer-bottom .qt-menu-social {
+    padding: 0;
+}
+li.qt-social-linkicon {
+    margin: 0 8px;
 }
