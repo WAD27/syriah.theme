@@ -7,7 +7,6 @@ get_header();
 <!-- ======================= MAIN SECTION  ======================= -->
 <div id="maincontent">
 	<div class="qt-main qt-clearfix qt-3dfx-content">
-		<?php echo "AAAAAAAHHHHHHHHHHHH"; ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		<?php get_template_part( 'phpincludes/part-background' ); ?>
 		<article id="qtarticle" <?php post_class("qt-container qt-main-contents"); ?> data-start>
